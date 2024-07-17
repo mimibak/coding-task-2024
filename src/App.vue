@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import PageDescription from './components/PageDescription.vue'
 import { RouterView } from 'vue-router'
 </script>
 
@@ -17,7 +17,7 @@ import { RouterView } from 'vue-router'
     />
 
     <div class="wrapper">
-      <HelloWorld msg="Coding Bootcamps Europe" />
+      <PageDescription msg="Coding Bootcamps Europe" />
     </div>
   </header>
 
