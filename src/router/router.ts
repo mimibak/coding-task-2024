@@ -13,7 +13,6 @@ const router = createRouter({
     {
       path: '/:name',
       name: 'repo-details',
-      props: true,
       component: IndexRepoDetail
     }
   ]

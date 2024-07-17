@@ -1,4 +1,4 @@
-# coding-task-2024
+# coding-task-2024 front-end for Vue.js & TypeScript
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -37,3 +37,13 @@ npm run build
 ```sh
 npm run lint
 ```
+
+# Task TODO
+
+Write a simple front-end application using Vue & TypeScript, with the following structure:
+
+- On the index ("/")page, show a list of all Coding Bootcamps Europe (public) repositories. This information should be fetched using the GitHub REST API(the organization name is "coding-bootcamps-eu"). The information displayed in the list should include the repository names.
+
+- The repositories in the list should be clickable and clicking on them should route to a repository details page ("/<repository-name>"). This detail page should show a list of the 20 latest commits in the given repository (fetched using the GitHub REST API). The information displayed in the list should include the commit messages.
+
+As a bonus, you are welcome to display more information in the lists and add some styling to the views.
